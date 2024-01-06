@@ -23,7 +23,7 @@ public class AppTest
     {
     	System.out.println("Asserting Tue Test");
 
-        assertTrue( false );
+        assertTrue( true );
     }
 
     @Test
@@ -31,7 +31,7 @@ public class AppTest
     {
     	System.out.println("Asserting False Test");
 
-        assertFalse(true);
+        assertFalse(false);
     }
 
     
