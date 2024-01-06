@@ -1,5 +1,6 @@
 package Itsutra.MavenWithJenkins_Demo1;
 
+import static org.testng.Assert.assertFalse;
 import static org.testng.AssertJUnit.assertTrue;
 
 import org.openqa.selenium.WebDriver;
@@ -20,10 +21,19 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
-    	System.out.println("Asserting Test");
+    	System.out.println("Asserting Tue Test");
 
         assertTrue( true );
     }
+
+    @Test
+    public void shouldAnswerWithFalse()
+    {
+    	System.out.println("Asserting False Test");
+
+        assertFalse(true);
+    }
+
     
     @BeforeTest
     public void GetStartwithBrowser()
